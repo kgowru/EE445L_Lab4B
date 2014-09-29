@@ -9,13 +9,14 @@ F (.\switch.c)(0x5429C770)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
 I (..\inc/tm4c123gh6pm.h)(0x53E65B1A)
 I (SysTickInts.h)(0x5429BBA4)
-F (.\tach.c)(0x5429D2F3)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\tach.o --omf_browse .\tach.crf --depend .\tach.d)
+F (.\tach.c)(0x5429DCE8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\tach.o --omf_browse .\tach.crf --depend .\tach.d)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
 I (..\inc/tm4c123gh6pm.h)(0x53E65B1A)
 I (PLL.h)(0x53E947F0)
 I (motor.h)(0x5429C72F)
 I (switch.h)(0x5429C724)
-F (.\motorcontrol.c)(0x5429D3FB)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\motorcontrol.o --omf_browse .\motorcontrol.crf --depend .\motorcontrol.d)
+I (ST7735.h)(0x53CA8A34)
+F (.\motorcontrol.c)(0x5429DCF2)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\motorcontrol.o --omf_browse .\motorcontrol.crf --depend .\motorcontrol.d)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
 I (PLL.h)(0x53E947F0)
 I (tach.h)(0x5429D1A5)

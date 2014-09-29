@@ -4,3 +4,4 @@
 .\tach.o: PLL.h
 .\tach.o: motor.h
 .\tach.o: switch.h
+.\tach.o: ST7735.h

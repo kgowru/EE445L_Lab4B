@@ -13,10 +13,13 @@ void EnableInterrupts(void);
 int main (void) {
 	DisableInterrupts();
 	PLL_Init();
-	motorInit(40000, 5000);
-	//tachInit();
+	motorInit(40000, 30000);
+	tachInit();
 	//EnableInterrupts();
-	/*ST7735_InitR(INITR_REDTAB);
+	ST7735_InitR(INITR_REDTAB);
+	//ST7735_OutString("Tach");
+	EnableInterrupts();
+	/*
   ST7735_OutString("Graphics test\n");
   ST7735_OutString("cubic function\n");
   ST7735_PlotClear(0,4095);  // range from 0 to 4095

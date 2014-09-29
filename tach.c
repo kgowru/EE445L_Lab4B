@@ -35,6 +35,7 @@
 #include "PLL.h"
 #include "motor.h"
 #include "switch.h"
+#include "ST7735.h"
 
 #define NVIC_EN0_INT19          0x00080000  // Interrupt 19 enable
 #define PF2                     (*((volatile uint32_t *)0x40025010))
@@ -130,6 +131,9 @@ void Timer0A_Handler(void){
 	if (U>39900) U = 39900;
 	
 	motorSetDuty(U);
+	
+	//ST7735_OutString();
+	//ST7735_OutString("Hi there");
 
   PF2 = PF2^0x04;  // toggle PF2
 }
